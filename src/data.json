@@ -1,0 +1,143 @@
+[
+  {
+    "artist": {
+      "genre":"Hip-Hop",
+      "name":"Drake"
+    },
+    "song":{
+      "title":"Mob Ties",
+      "duration":"4 minutes"
+    }
+  },
+
+  {
+    "artist": {
+      "genre":"Hip-Hop",
+      "name":"Eminem"
+    },
+    "song":{
+      "title":"Rap God",
+      "duration":"6 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Hip-Hop",
+      "name":"Eminem feat Rihanna"
+    },
+    "song":{
+      "title":"The Monster",
+      "duration":"4 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Alternative",
+      "name":"SHAED"
+    },
+    "song":{
+      "title":"Trampoline",
+      "duration":"3 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Contemporary R&B",
+      "name":"Luh Kel"
+    },
+    "song":{
+      "title":"Wrong",
+      "duration":"2 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Bollywood",
+      "name":"Sachet Tandon"
+    },
+    "song":{
+      "title":"Bekhayali",
+      "duration":"6 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Pop",
+      "name":"John Newman"
+    },
+    "song":{
+      "title":"Love Me Again",
+      "duration":"4 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Pop",
+      "name":"Andy Grammer"
+    },
+    "song":{
+      "title":"Honey, I'm Good",
+      "duration":"3 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Dance",
+      "name":"David Guetta feat Sia"
+    },
+    "song":{
+      "title":"Titanium",
+      "duration":"4 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Bollywood",
+      "name":"Udit Narayan"
+    },
+    "song":{
+      "title":"Yeh Tara Woh Tara",
+      "duration":"7 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Country",
+      "name":"Blanco Brown"
+    },
+    "song":{
+      "title":"The Git Up",
+      "duration":"3 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Rock",
+      "name":"Buckcherry"
+    },
+    "song":{
+      "title":"Head Like a Hole",
+      "duration":"4 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Hip-Hop",
+      "name":"Drake"
+    },
+    "song":{
+      "title":"Marvins Room",
+      "duration":"4 minutes"
+    }
+  },
+  {
+    "artist": {
+      "genre":"Pop",
+      "name":"Bebe Rexha"
+    },
+    "song":{
+      "title":"I'm Gonna Show You Crazy",
+      "duration":"3 minutes"
+    }
+  }
+]

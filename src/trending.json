@@ -1,0 +1,143 @@
+[
+    {
+      "artist": {
+        "genre":"Country",
+        "name":"Lil Nas X"
+      },
+      "song":{
+        "title":"Old Town Road",
+        "duration":"4 minutes"
+      }
+    },
+  
+    {
+      "artist": {
+        "genre":"Hip-Hop",
+        "name":"Lil Tecca"
+      },
+      "song":{
+        "title":"Ransom",
+        "duration":"2 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Alternative",
+        "name":"Panic! At the Disco"
+      },
+      "song":{
+        "title":"High Hopes",
+        "duration":"3 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Pop",
+        "name":"Bazzi"
+      },
+      "song":{
+        "title":"I.F.L.Y",
+        "duration":"3 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Contemporary R&B",
+        "name":"Luh Kel"
+      },
+      "song":{
+        "title":"Wrong",
+        "duration":"2 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Pop",
+        "name":"Taylor Swift"
+      },
+      "song":{
+        "title":"The Archer",
+        "duration":"4 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Hip-Hop",
+        "name":"Chance the Rapper"
+      },
+      "song":{
+        "title":"Ballin Flossin",
+        "duration":"3 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Pop",
+        "name":"Chainsmokers"
+      },
+      "song":{
+        "title":"Call You Mine",
+        "duration":"3 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Dance",
+        "name":"David Guetta feat Sia"
+      },
+      "song":{
+        "title":"Titanium",
+        "duration":"4 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Alternative",
+        "name":"Billie Eilish"
+      },
+      "song":{
+        "title":"Bad Guy",
+        "duration":"3 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Country",
+        "name":"Blanco Brown"
+      },
+      "song":{
+        "title":"The Git Up",
+        "duration":"3 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Pop",
+        "name":"Bryce Vine"
+      },
+      "song":{
+        "title":"La La Land",
+        "duration":"4 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Hip-Hop",
+        "name":"Rick Ross"
+      },
+      "song":{
+        "title":"Gold Roses",
+        "duration":"4 minutes"
+      }
+    },
+    {
+      "artist": {
+        "genre":"Pop",
+        "name":"5SOS"
+      },
+      "song":{
+        "title":"Easier",
+        "duration":"4 minutes"
+      }
+    }
+  ]

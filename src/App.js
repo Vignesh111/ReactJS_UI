@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import SideBar from './SideNavPage';
+//import myData from './data.json'
+import Contacts from './contacts';
+import Trending from './trending';
+import { Component } from 'react';
+
 import './App.css';
 
-function App() {
+class App extends Component {
+ state={
+   contacts: [],
+   topics: ['Angular','React','Vue']
+ }
+
+ 
+  render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div id="App">
+      <SideBar topics={this.state.topics}/>
+      <Contacts />
+      <Trending />
+   </div>
   );
+ }
 }
 
 export default App;
