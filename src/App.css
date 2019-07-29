@@ -68,14 +68,19 @@ body {
 }
 
 .card2{
-  flex-grow: 5;
   padding: 10px;
+  margin-left: 100px;
+  float: right;
+  width: 30%
+  
+  
 }
 
-#div1{
-  
-  flex-grow:4;
+.div1{
   padding: 10px;
+  margin-left: 100px;
+  float: left;
+  width: 70%
 }
 
 Menu{
