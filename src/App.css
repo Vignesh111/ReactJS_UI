@@ -107,12 +107,24 @@ td, th {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
-  background-color: red;
+  width: 90%;
+  margin-left:180px;
+  
   color: white;
   text-align: center;
   display:block;
-}
+  }
+
+  .btn {
+    
+    border: none;
+    transition: 0.3s;
+  }
+  
+  #btn:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
 
 
 

@@ -21,13 +21,13 @@ class App extends Component {
       <center><img src={logo} className="header" alt="Smiley face" height="100px"></img></center>
       <SideBar />
       <div className="music-app">
-      <Contacts />
-      <Trending />
+        <Contacts />
+        <Trending />
+      </div>
+      <div className="footer">
+        <img src={player}  alt="Smiley face"></img>
+      </div>
     </div>
-    <div className="footer">
-    <img src={player}  alt="Smiley face" height="100px"></img>
-</div>
-   </div>
   );
  }
 }

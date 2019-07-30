@@ -11,23 +11,26 @@ import React, { Component } from 'react'
           <table>
          
             <tr>
-              <th className="card-title"><center>Track</center></th>
-              <th className="card-title"><center>Album</center></th>
-              <th className="card-title"><center>Duration</center></th>
+              
+              <th className="card-title" ><center>Track</center></th>
+              <th className="card-title" ><center>Album</center></th>
+              <th className="card-title" ><center>Duration</center></th>
+              
             </tr>
           
           {Data.map((details,index)=>{
-            return <tr>
+            return <div className="btn"><tr>
            
               <td><center><h5 className="card-title">{details.song.title}</h5></center></td>
               <td><center><h6 className="card-subtitle mb-2 text-muted">{details.artist.genre}</h6></center></td>
               <td><center><p className="card-text">{details.artist.name}</p></center></td>
             
-            </tr>
+            </tr></div>
             
           })}
              
-            </table>
+          </table>
+            
             
         </div>
       )
