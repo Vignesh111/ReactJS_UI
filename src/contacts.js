@@ -19,13 +19,13 @@ import React, { Component } from 'react'
             </tr>
           
           {Data.map((details,index)=>{
-            return <div className="btn"><tr>
+            return <tr>
            
               <td><center><h5 className="card-title">{details.song.title}</h5></center></td>
               <td><center><h6 className="card-subtitle mb-2 text-muted">{details.artist.genre}</h6></center></td>
               <td><center><p className="card-text">{details.artist.name}</p></center></td>
             
-            </tr></div>
+            </tr>
             
           })}
              
