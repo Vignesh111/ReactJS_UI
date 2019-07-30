@@ -6,18 +6,29 @@ import React, { Component } from 'react'
       render(){
       return (
         <div className="div1">
-          <h1>Contact List</h1>
+          
+          <h1><center>Favorites</center></h1>
+          <table>
+         
+            <tr>
+              <th><center>Track</center></th>
+              <th><center>Album</center></th>
+              <th><center>Duration</center></th>
+            </tr>
+          
           {Data.map((details,index)=>{
-            return <div class="card">
-            <div className="card-body">
-              <h5 className="card-title">{details.artist.name}</h5>
-              <h6 className="card-subtitle mb-2 text-muted">{details.artist.genre}</h6>
-              <p className="card-text">{details.song.title}</p>
-            </div>
-          </div>
-          })}
-            
+            return <tr>
            
+              <td><center><h5 className="card-title">{details.song.title}</h5></center></td>
+              <td><center><h6 className="card-subtitle mb-2 text-muted">{details.artist.genre}</h6></center></td>
+              <td><center><p className="card-text">{details.artist.name}</p></center></td>
+            
+            </tr>
+            
+          })}
+             
+            </table>
+            
         </div>
       )
      // console.log(contacts)

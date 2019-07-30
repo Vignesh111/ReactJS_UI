@@ -1,32 +1,37 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
+import Avatar from 'react-avatar'
+import logo from './images/profile pic.jpg';
 
 export default props => {
   return (
     <Menu>
-      <a className="menu-item" href="/">
+      <center><Avatar name="Vignesh Kumar" className="avatar" img src={logo}/><p>Vignesh Kumar</p></center>
+      
+
+      <center><a className="menu-item" href="/">
         Home
-      </a>
+      </a></center>
 
-      <a className="menu-item" href="/laravel">
+      <center><a className="menu-item" href="/laravel">
         Laravel
-      </a>
+      </a></center>
 
-      <a className="menu-item" href="/angular">
+      <center><a className="menu-item" href="/angular">
         Angular
-      </a>
+      </a></center>
 
-      <a className="menu-item" href="/react">
+      <center><a className="menu-item" href="/react">
         React
-      </a>
+      </a></center>
 
-      <a className="menu-item" href="/vue">
+      <center><a className="menu-item" href="/vue">
         Vue
-      </a>
+      </a></center>
 
-      <a className="menu-item" href="/node">
+      <center><a className="menu-item" href="/node">
         Node
-      </a>
+      </a></center>
     </Menu>
   );
 };

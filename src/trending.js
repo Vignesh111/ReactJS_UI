@@ -6,13 +6,13 @@ import { Component } from 'react'
       render(){
       return (
         <div className="card2">
-          <h1>Trending</h1>
+          <center><h1>Trending</h1></center>
           {Data2.map((details,index)=>{
             return <div >
             <div className ="card-body">
-              <h5 className="card-title">{details.artist.name}</h5>
-              <h6 className="card-subtitle mb-2 text-muted">{details.artist.genre}</h6>
-              <p className="card-text">{details.song.title}</p>
+            <center><h5 className="card-title">{details.song.title}</h5></center>
+            <center><h6 className="card-subtitle mb-2 text-muted">{details.artist.genre}</h6></center>
+            <center><p className="card-text">{details.artist.name}</p></center>
             </div>
           </div>
           })}
