@@ -11,9 +11,9 @@ import React, { Component } from 'react'
           <table>
          
             <tr>
-              <th><center>Track</center></th>
-              <th><center>Album</center></th>
-              <th><center>Duration</center></th>
+              <th className="card-title"><center>Track</center></th>
+              <th className="card-title"><center>Album</center></th>
+              <th className="card-title"><center>Duration</center></th>
             </tr>
           
           {Data.map((details,index)=>{

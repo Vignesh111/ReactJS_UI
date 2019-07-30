@@ -5,6 +5,7 @@ import Contacts from './contacts';
 import Trending from './trending';
 import { Component } from 'react';
 import logo from './images/image12.jpg';
+import player from './images/player.JPG';
 import './App.css';
 
 class App extends Component {
@@ -18,11 +19,14 @@ class App extends Component {
   return (
     <div id="App">
       <center><img src={logo} className="header" alt="Smiley face" height="100px"></img></center>
-      <SideBar topics={this.state.topics}/>
+      <SideBar />
       <div className="music-app">
       <Contacts />
       <Trending />
     </div>
+    <div className="footer">
+    <img src={player}  alt="Smiley face" height="100px"></img>
+</div>
    </div>
   );
  }
